@@ -1,0 +1,24 @@
+project:
+  type: book
+  title: Statistical Computing
+  output-dir: _site
+  
+website: 
+  navbar:
+   left:
+      - href: index.qmd
+        text: Home
+      - href: Example.qmd
+        text: Second page
+
+book:
+  chapters:
+    - index.qmd
+    - Example.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-location: left
